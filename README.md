@@ -1,33 +1,41 @@
 <div align="center">
    <img src="./assets/img/header.svg" alt="Learn more from cyberdude networks."/>
+   
+<br> 
+<br>
+
+[![Stars](https://img.shields.io/github/stars/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions)
+[![Forks](https://img.shields.io/github/forks/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions)
+[![Issues](https://img.shields.io/github/issues/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions/issues)
+[![GitHub license](https://img.shields.io/github/license/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions)
+![Anbuselvan Rocky Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fanburocky3%2Fjavascript-interview-questions)
+[![Cyberdude youtube](https://img.shields.io/youtube/channel/subscribers/UCteUj8bL1ppZcS70UCWrVfw?style=social)](https://www.youtube.com/c/cyberdudenetworks)
+
 </div>
+
 
 # Javascript Interview Questions - For Practice
 
 Learn by doing, these are the mostly used interview questions by corporate companies. This repository contains the questions as well as the solution to that question. **Happy Learning**.
 
 <div style="width:100%">
-
-| S.No | Topics                | Questions                                | Solution                                 |
-| ---- | --------------------- | ---------------------------------------- | ---------------------------------------- |
-| 1    | Javascript Data types | N.A                                      | N.A                                      |
-| 2    | Javascript Objects    | N.A                                      | N.A                                      |
-| 3    | Javascript Arrays     | [View](./javascript-arrays/questions.md) | [View](./javascript-arrays/solutions.md) |
-| 4    | Javascript Functions  | N.A                                      | N.A                                      |
+   
+| S.No | Topics                | Video Links | Questions                                | Solution                                 |
+| ---- | --------------------- | ----------- | ---------------------------------------- | ---------------------------------------- |
+| 1    | Javascript Objects    | [Videos](https://www.youtube.com/watch?v=iKD8RZoXrLQ&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=36) | N.A                                      | N.A                                      |
+| 2    | Javascript Arrays     | [Videos](https://www.youtube.com/watch?v=iKD8RZoXrLQ&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=50) | [View](./javascript-arrays/questions.md) | [View](./javascript-arrays/solutions.md) |
+| 3    | Javascript Functions  | [Videos](https://www.youtube.com/watch?v=iKD8RZoXrLQ&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=70) | N.A                                      | N.A                                      |
 
 </div>
 
-<style>
-th:nth-of-type(2) {
-    width: 100%;
-}
-</style>
+
 
 ## Javascript in Tamil (Full Course) (FREE)
 
 All videos are available for free, [check out here](https://www.youtube.com/c/cyberdudenetworks)
 
-[![Javascript in Tamil](https://img.youtube.com/vi/OuUqS8Po5ps/0.jpg)](https://www.youtube.com/watch?v=OuUqS8Po5ps&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa)
+![Javascript in Tamil](https://user-images.githubusercontent.com/15264938/121434190-952f8c80-c99a-11eb-84d1-c62749fdda2a.png)
+
 
 #### Credits:
 
