@@ -1,6 +1,6 @@
 ## :white_check_mark: Solution: Javascript Arrays Interview Questions
 
-<div id="create-array-objects"></div>
+<div id="question-1"></div>
 
 1.  Create an `Array object` - (Atleast 3 methods) - [Explanation Video](https://youtube.com/c/cyberdudenetworks)
 
@@ -65,76 +65,80 @@
       console.log (array2); // [ 1, 2, 3, 4, 5, 6 ]
     ```
 
+<div id="question-3"></div>
+
 3.  Empty this array: - [Explanation Video](https://youtube.com/c/cyberdudenetworks)
 
-    ```js
-    var array = [1, 2, 3, 4, 5];
-    ```
+        ```js
+        var array = [1, 2, 3, 4, 5];
+        ```
 
-    ##### :heavy_check_mark: Solution - Method - #1 (The for loop method)
+        ##### :heavy_check_mark: Solution - Method - #1 (The for loop method)
 
-    ```js
-    var array = [1, 2, 3, 4, 5];
+        ```js
+        var array = [1, 2, 3, 4, 5];
 
-    Array = [];
-    ```
+        Array = [];
+        ```
 
-    > This is only recommended if you don't have any other references to this array because it will actually create a new empty array and the other reference will still be available to others in memory.
+        > This is only recommended if you don't have any other references to this array because it will actually create a new empty array and the other reference will still be available to others in memory.
 
-    ###### For Example:
+        ###### For Example:
 
-    ```js
-    var array = [1, 2, 3, 4, 5];
-    var array2 = array;
+        ```js
+        var array = [1, 2, 3, 4, 5];
+        var array2 = array;
 
-    array = [];
+        array = [];
 
-    console.log(array); // [ ];
-    console.log(array2); // [ 1, 2, 3, 4, 5 ]
-    ```
+        console.log(array); // [ ];
+        console.log(array2); // [ 1, 2, 3, 4, 5 ]
+        ```
 
-    ##### :heavy_check_mark: Solution - Method - #2
+        ##### :heavy_check_mark: Solution - Method - #2
 
-    ```js
-    var array3 = [1, 2, 3, 4, 5];
-    array3.length = 0;
-    console.log(array3); // [ ];
-    ```
+        ```js
+        var array3 = [1, 2, 3, 4, 5];
+        array3.length = 0;
+        console.log(array3); // [ ];
+        ```
 
-    > This even empties to referenced arrays
+        > This even empties to referenced arrays
 
-    ```js
-    var array3 = [1, 2, 3, 4, 5];
-    var array4 = array3;
-    array3.length = 0;
-    console.log(array3); // [ ];
-    console.log(array4); // [ ];
-    ```
+        ```js
+        var array3 = [1, 2, 3, 4, 5];
+        var array4 = array3;
+        array3.length = 0;
+        console.log(array3); // [ ];
+        console.log(array4); // [ ];
+        ```
 
-    ##### :heavy_check_mark: Solution - Method - #3
+        ##### :heavy_check_mark: Solution - Method - #3
 
-    ```js
-    var array5 = [1, 2, 3, 4, 5];
-    array5.splice(0, array5.length);
-    console.log(array5); // [ ];
-    ```
+        ```js
+        var array5 = [1, 2, 3, 4, 5];
+        array5.splice(0, array5.length);
+        console.log(array5); // [ ];
+        ```
 
-    ##### :heavy_check_mark: Solution - Method - #4
+        ##### :heavy_check_mark: Solution - Method - #4
 
-    ```js
-    var array6 = [1, 2, 3, 4, 5];
-    console.log(array6); // [1,2,3,4,5]
+        ```js
+        var array6 = [1, 2, 3, 4, 5];
+        console.log(array6); // [1,2,3,4,5]
 
-    function emptyArray(array) {
-      "use strict";
-      while (array.length) {
-        array6.pop();
-      }
-    }
+        function emptyArray(array) {
+          "use strict";
+          while (array.length) {
+            array6.pop();
+          }
+        }
 
-    emptyArray(array6); // call function
-    console.log(array6); // [ ] ; now empty
-    ```
+        emptyArray(array6); // call function
+        console.log(array6); // [ ] ; now empty
+        ```
+
+    <div id="question-4"></div>
 
 4.  What type is an `Array` set to?
 
@@ -142,6 +146,8 @@
     var array3 = [1, 2, 3, 4, 5];
     console.log(typeof array3); // Object
     ```
+
+<div id="question-5"></div>
 
 5.  How can you check if something is an `Array`?
 
@@ -200,6 +206,8 @@
     checkIfArray(array); //array it is
     ```
 
+<div id="question-6"></div>
+
 6.  Add an `item` to the end of an `array`.
 
     ##### :heavy_check_mark: Solution - Method - #1
@@ -218,6 +226,8 @@
     console.log(array); // [ 'a', 'b', 'c', 'd', 'e' ]
     ```
 
+<div id="question-7"></div>
+
 7.  Find the `index` position of `d` in this array
 
     ```js
@@ -230,6 +240,8 @@
     console.log(arr.indexOf("d")); // 3
     ```
 
+<div id="question-8"></div>
+
 8.  What will be returned if you look for the `index` of something that does not exist?
 
     ##### :heavy_check_mark: Solution:
@@ -238,6 +250,8 @@
     var arr = ["a", "b", "c", "d"];
     console.log(arr.indexOf(7)); // -1 === does not exist
     ```
+
+<div id="question-9"></div>
 
 9.  Write a function to check if `milk` exists in your `array`.
 
@@ -262,6 +276,8 @@
     checkForProduct("milk"); //item is in your list
     ```
 
+<div id="question-10"></div>
+
 10. Now you've found `milk` exists add some code to find the `index` of `milk` and **remove** that item.
 
     ##### :heavy_check_mark: Solution:
@@ -278,6 +294,8 @@
     console.log(items); // [ 'bread', 'sugar']
     ```
 
+<div id="question-11"></div>
+
 11. List the ways to `loop over an array`.
 
     ##### :heavy_check_mark: Solution:
@@ -286,6 +304,8 @@
     - For-in
     - For loop
     - For-of
+
+<div id="question-12"></div>
 
 12. Write some code to put these numbers in order (Ascending & Descending)
 
@@ -304,6 +324,8 @@
     console.log(numbers3); // [ 1, 2, 5, 7, 12, 23, 33, 77, 99, 234 ]
     ```
 
+<div id="question-13"></div>
+
 13. Write some code to place this list in alphabetical order
 
     ```js
@@ -319,6 +341,8 @@
 
     console.log(p); // [ 'a', 'e', 'y', 'z' ]
     ```
+
+<div id="question-14"></div>
 
 14. What is the length of these `arrays`
 
@@ -342,6 +366,8 @@
     array[0].length = 3 // first internal array within the outer array
     ```
 
+<div id="question-15"></div>
+
 15. What are the results of these `splice` and `slice` methods
 
     ##### :heavy_check_mark: Solution:
@@ -363,6 +389,8 @@
     console.log(spliced); // it returns  [ 'john', 'peter', 'karen' ]
     console.log(names); // however the array only contains jason now
     ```
+
+<div id="question-16"></div>
 
 16. What are the `console logs` of these `shift` and `unshift` methods
 
@@ -403,6 +431,8 @@
     Var g = [ ]   // we a.shift() so remove first element leaving it empty
     ```
 
+<div id="question-17"></div>
+
 17. Using `reduce` add all these numbers
 
     ```js
@@ -420,6 +450,8 @@
 
     console.log(total); // Total returned is : 21
     ```
+
+<div id="question-18"></div>
 
 18. Flatten this array to one single array using `reduce`
 
@@ -442,6 +474,8 @@
 
     console.log(flattened); // [ 0, 1, 2, 3, 4, 5 ]
     ```
+
+<div id="question-19"></div>
 
 19. Filter this array to return just the dogs
 

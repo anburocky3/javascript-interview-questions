@@ -2,35 +2,11 @@
    <img src="../assets/img/header.svg" alt="Learn more from cyberdude networks."/>
 </div>
 
-<style>
-.btn{
-    padding: 1px 10px;
-    border-radius: 30px;
-    display: inline-block;
-}
-.btn.solution{
-    color:green !important;
-    border: 1px solid green;
-}
-.btn.video{
-    color:black !important;
-    border: 1px solid black;
-}
-.btn.solution:before{
-content: " ✔️ "
-}
-.btn.video:before{
-content:"🎬"
-}
-.info-wrapper{
-    margin: 10px 0;
-}
-
-</style>
-
 ## Frequently asked interview question - (FOR PRACTICE)
 
-Please note that, video materials are only available in [Tamil (தமிழ்)](), code solutions with explanations are available in <a href="./solutions.md" target="_blank">English</a>.
+Please note that, video materials are only available in [Tamil (தமிழ்)](https://www.youtube.com/c/CyberDudeNetworks/), code solutions with explanations are available in <a href="./solutions.md" target="_blank">English</a>.
+
+<hr>
 
 **Rules to be followed:**
 
@@ -40,156 +16,71 @@ Please note that, video materials are only available in [Tamil (தமிழ்)
 3. Try to solve it yourself, if you got struck, no problem. [Google it](https://google.com) Yourself. At last resort, see the <a href="./solutions.md" target="_blank">solution of us</a>.
 4. Code with fun, Happy Hacking.
 
-<hr>
-
 ### Let's start - Solve these:
 
-1. Create an `Array object` - (In Atleast 3 methods)
+1. Create an `Array object` - (In Atleast 3 methods) - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-1)]
 
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./solutions.md#create-array-objects" class="btn video"> Video</a>
-     <a href="." class="btn solution"> Solutions</a></small></div>
-
-2. Take the below `array` and copy it using the `slice` method and the `for loop` method.
+2. Take the below `array` and copy it using the `slice` method and the `for loop` method. - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-2)]
 
    ```js
    var array = [1, 2, 3, 4, 5];
    ```
 
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./solutions.md#question-2" class="btn solution"> Solutions</a></small></div>
-
-3. Empty this array:
+3. Empty this array: - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-3)]
 
    ```js
    var array = [1, 2, 3, 4, 5];
    ```
 
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./solutions.md#question-3" class="btn solution"> Solutions</a></small></div>
+4. What type is an `Array` set to? - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-4)]
 
-4. What type is an `Array` set to?
+5. How can you check if something is an `Array`? - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-5)]
 
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./" class="btn solution"> Solutions</a></small></div>
+6. Add an `item` to the end of an `array`. - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-6)]
 
-5. How can you check if something is an `Array`?
-
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./" class="btn solution"> Solutions</a></small></div>
-
-6. Add an `item` to the end of an `array`.
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./" class="btn solution"> Solutions</a></small></div>
-7. Find the `index` position of `d` in this array
+7. Find the `index` position of `d` in this array - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-7)]
 
    ```js
    var arr = ["a", "b", "c", "d"];
    ```
 
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./" class="btn solution"> Solutions</a></small></div>
+8. What will be returned if you look for the `index` of something that does not exist? - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-8)]
 
-8. What will be returned if you look for the `index` of something that does not exist?
-
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./" class="btn solution"> Solutions</a></small></div>
-
-9. Write a function to check if `milk` exists in your `array`.
+9. Write a function to check if `milk` exists in your `array`. - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-9)]
 
    ```js
    var items = ["milk", "bread", "sugar"];
    ```
 
-   - <div class="info-wrapper">
-         <small>
-         See the solution here: <a href="./" class="btn video"> Video</a>
-     <a href="./" class="btn solution"> Solutions</a></small></div>
+10. Now you've found `milk` exists add some code to find the `index` of `milk` and **remove** that item. - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-10)]
 
-10. Now you've found `milk` exists add some code to find the `index` of `milk` and **remove** that item.
+11. List the ways to `loop over an array`. - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-11)]
 
-- <div class="info-wrapper">
-      <small>
-      See the solution here: <a href="./" class="btn video"> Video</a>
-  <a href="./" class="btn solution"> Solutions</a></small></div>
-
-11. List the ways to `loop over an array`.
-
-- <div class="info-wrapper">
-      <small>
-      See the solution here: <a href="./" class="btn video"> Video</a>
-  <a href="./" class="btn solution"> Solutions</a></small></div>
-
-12. Write some code to put these numbers in order (Ascending & Descending)
+12. Write some code to put these numbers in order (Ascending & Descending) - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-12)]
 
     ```js
     var numbers = [1, 12, 2, 23, 77, 7, 33, 5, 99, 234];
     ```
 
-    - <div class="info-wrapper">
-          <small>
-          See the solution here: <a href="./" class="btn video"> Video</a>
-      <a href="./" class="btn solution"> Solutions</a></small></div>
-
-13. Write some code to place this list in alphabetical order
+13. Write some code to place this list in alphabetical order - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-13)]
 
     ```js
     var p = ["a", "z", "e", "y"];
     ```
 
-    - <div class="info-wrapper">
-          <small>
-          See the solution here: <a href="./" class="btn video"> Video</a>
-      <a href="./" class="btn solution"> Solutions</a></small></div>
+14. What is the length of these `arrays` - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-14)]
 
-14. What is the length of these `arrays`
+15. What are the results of these `splice` and `slice` methods - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-15)]
 
-    - <div class="info-wrapper">
-          <small>
-          See the solution here: <a href="./" class="btn video"> Video</a>
-      <a href="./" class="btn solution"> Solutions</a></small></div>
+16. What are the `console logs` of these `shift` and `unshift` methods - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-16)]
 
-15. What are the results of these `splice` and `slice` methods
-
-    - <div class="info-wrapper">
-          <small>
-          See the solution here: <a href="./" class="btn video"> Video</a>
-      <a href="./" class="btn solution"> Solutions</a></small></div>
-
-16. What are the `console logs` of these `shift` and `unshift` methods
-
-- <div class="info-wrapper">
-      <small>
-      See the solution here: <a href="./" class="btn video"> Video</a>
-  <a href="./" class="btn solution"> Solutions</a></small></div>
-
-17. Using `reduce` add all these numbers
+17. Using `reduce` add all these numbers - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-17)]
 
     ```js
     var numbers = [1, 2, 3, 4, 5, 6];
     ```
 
-    - <div class="info-wrapper">
-          <small>
-          See the solution here: <a href="./" class="btn video"> Video</a>
-      <a href="./" class="btn solution"> Solutions</a></small></div>
-
-18. Flatten this array to one single array using `reduce`
+18. Flatten this array to one single array using `reduce` - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-18)]
 
     ```js
     var array = [
@@ -199,12 +90,7 @@ Please note that, video materials are only available in [Tamil (தமிழ்)
     ];
     ```
 
-    - <div class="info-wrapper">
-            <small>
-            See the solution here: <a href="./" class="btn video"> Video</a>
-        <a href="./" class="btn solution"> Solutions</a></small></div>
-
-19. Filter this `array` to return just the dogs
+19. Filter this `array` to return just the dogs - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-19)]
 
     ```js
     var animals = [
@@ -217,14 +103,4 @@ Please note that, video materials are only available in [Tamil (தமிழ்)
     ];
     ```
 
-    - <div class="info-wrapper">
-          <small>
-          See the solution here: <a href="./" class="btn video"> Video</a>
-      <a href="./" class="btn solution"> Solutions</a></small></div>
-
-20. Using `array` in _Question 19_ use **`map`** function to return all the species.
-
-    - <div class="info-wrapper">
-          <small>
-          See the solution here: <a href="./" class="btn video"> Video</a>
-      <a href="./solutions.md#question-20" class="btn solution"> Solutions</a></small></div>
+20. Using `array` in _Question 19_ use **`map`** function to return all the species. - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[✔️ Solution](./solutions.md#question-20)]
