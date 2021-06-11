@@ -346,6 +346,18 @@ console.log(p); // [ 'a', 'e', 'y', 'z' ]
 
 14. What is the length of these `arrays`
 
+```js
+var arr1 = [,,,];
+
+var arr2 = new Array(3);
+
+var arr3 = [1,2,3,4,5]
+
+var array = [ [1,2,3], [4,5,6]  ];
+
+var array[0].length = [ [1,2,3], [4,5,6]  ];
+```
+
 ##### :heavy_check_mark: Solution:
 
 ```js
@@ -397,38 +409,38 @@ console.log(names); // however the array only contains jason now
 ##### :heavy_check_mark: Solution:
 
 ```js
-var a = [] ;
+var a = [];
 
 // We take an empty array and
 
 a.unshift(1);
-var a = console.log(a)
+var a = console.log(a);
 a.unshift(22);
-var b = console.log(a)
+var b = console.log(a);
 a.shift();
-var c = console.log(a)
-a.unshift(3,[4,5]);
-var d = console.log(a)
+var c = console.log(a);
+a.unshift(3, [4, 5]);
+var d = console.log(a);
 a.shift();
-var e = console.log(a)
+var e = console.log(a);
 a.shift();
-var f = console.log(a)
+var f = console.log(a);
 a.shift();
-var g = console.log(a)
+var g = console.log(a);
 
 // Results
-Var a = [ 1 ]       // we a.unshift(1) so added 1 to front
+var a = [1]; // we a.unshift(1) so added 1 to front
 
-Var b = [ 22, 1 ]   // we a.unshift(22) so added 22 to front
+var b = [22, 1]; // we a.unshift(22) so added 22 to front
 
-Var c = [ 1 ]       // we a.shift() so removed the first element
+var c = [1]; // we a.shift() so removed the first element
 
-Var d = [ 3, [ 4, 5 ], 1 ]   // we a.unshift(3,[4,5]) so added these to front
-Var e = [ [ 4, 5 ], 1 ]   // we a.shift() so remove first element
+var d = [3, [4, 5], 1]; // we a.unshift(3,[4,5]) so added these to front
+var e = [[4, 5], 1]; // we a.shift() so remove first element
 
-Var f = [ 1 ]   // we a.shift() so remove first element
+var f = [1]; // we a.shift() so remove first element
 
-Var g = [ ]   // we a.shift() so remove first element leaving it empty
+var g = []; // we a.shift() so remove first element leaving it empty
 ```
 
 <div id="question-17"></div>

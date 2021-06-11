@@ -70,9 +70,50 @@ Please note that, video materials are only available in [Tamil (தமிழ்)
 
 14. What is the length of these `arrays` - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[Solution](./solutions.md#question-14)]
 
+    ```js
+    var arr1 = [,,,];
+
+    var arr2 = new Array(3);
+
+    var arr3 = [1,2,3,4,5]
+
+    var array = [ [1,2,3], [4,5,6]  ];
+
+    var array[0].length = [ [1,2,3], [4,5,6]  ];
+    ```
+
 15. What are the results of these `splice` and `slice` methods - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[Solution](./solutions.md#question-15)]
 
+    ```js
+    var a = ["zero", "one", "two", "three"];
+    var names = ["jason", "john", "peter", "karen"];
+
+    var sliced = a.slice(1, 3);
+    var spliced = names.splice(1, 3);
+    ```
+
 16. What are the `console logs` of these `shift` and `unshift` methods - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[Solution](./solutions.md#question-16)]
+
+    ```js
+    var a = [];
+
+    // We take an empty array and
+
+    a.unshift(1);
+    var a = console.log(a);
+    a.unshift(22);
+    var b = console.log(a);
+    a.shift();
+    var c = console.log(a);
+    a.unshift(3, [4, 5]);
+    var d = console.log(a);
+    a.shift();
+    var e = console.log(a);
+    a.shift();
+    var f = console.log(a);
+    a.shift();
+    var g = console.log(a);
+    ```
 
 17. Using `reduce` add all these numbers - [[🎬 Video](https://www.youtube.com/c/CyberDudeNetworks/)] [[Solution](./solutions.md#question-17)]
 
