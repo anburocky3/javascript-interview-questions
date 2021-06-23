@@ -347,35 +347,37 @@ console.log(p); // [ 'a', 'e', 'y', 'z' ]
 14. What is the length of these `arrays`
 
 ```js
-var arr1 = [,,,];
+var arr1 = [, , ,];
 
 var arr2 = new Array(3);
 
-var arr3 = [1,2,3,4,5]
+var arr3 = [1, 2, 3, 4, 5];
 
-var array = [ [1,2,3], [4,5,6]  ];
-
-var array[0].length = [ [1,2,3], [4,5,6]  ];
+var array = [
+  [1, 2, 3],
+  [4, 5, 6],
+];
 ```
 
 ##### :heavy_check_mark: Solution:
 
 ```js
-var arr1 = [,,,];
+var arr1 = [, , ,];
 
 var arr2 = new Array(3);
 
-var arr3 = [1,2,3,4,5]
+var arr3 = [1, 2, 3, 4, 5];
 
-var array = [ [1,2,3], [4,5,6]  ];
+var array = [
+  [1, 2, 3],
+  [4, 5, 6],
+];
 
-var array[0].length = [ [1,2,3], [4,5,6]  ];
-
-arr1.length = 3
-arr2.length = 3
-arr3.length = 5
-array.length = 2    // counts the number of internal array
-array[0].length = 3 // first internal array within the outer array
+arr1.length = 3;
+arr2.length = 3;
+arr3.length = 5;
+array.length = 2; // counts the number of internal array
+array[0].length = 3; // first internal array within the outer array
 ```
 
 <div id="question-15"></div>
@@ -414,7 +416,6 @@ var a = [];
 // We take an empty array and
 
 a.unshift(1);
-var a = console.log(a);
 a.unshift(22);
 var b = console.log(a);
 a.shift();

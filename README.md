@@ -6,13 +6,12 @@
 
 [![Stars](https://img.shields.io/github/stars/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions)
 [![Forks](https://img.shields.io/github/forks/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions)
-[![Issues](https://img.shields.io/github/issues/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions/issues)
 [![GitHub license](https://img.shields.io/github/license/anburocky3/javascript-interview-questions)](https://github.com/anburocky3/javascript-interview-questions)
 ![Anbuselvan Rocky Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fanburocky3%2Fjavascript-interview-questions)
+[![Support Server](https://img.shields.io/discord/742347296091537448.svg?label=Discord&logo=Discord&colorB=7289da)](https://discord.gg/6ktMR65YMy)
 [![Cyberdude youtube](https://img.shields.io/youtube/channel/subscribers/UCteUj8bL1ppZcS70UCWrVfw?style=social)](https://www.youtube.com/c/cyberdudenetworks)
 
 </div>
-
 
 # Javascript Interview Questions - For Practice
 
@@ -28,14 +27,11 @@ Learn by doing, these are the mostly used interview questions by corporate compa
 
 </div>
 
-
-
 ## Javascript in Tamil (Full Course) (FREE)
 
 All videos are available for free, [check out here](https://www.youtube.com/c/cyberdudenetworks)
 
 ![Javascript in Tamil](https://user-images.githubusercontent.com/15264938/121434190-952f8c80-c99a-11eb-84d1-c62749fdda2a.png)
-
 
 #### Credits:
 
